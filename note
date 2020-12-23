@@ -10,3 +10,9 @@ git 提交步骤
     3.git add 文件 追踪文件
     4.git commit -m 提交信息 向仓库中提交代码
     5.git log 查看提交记录
+
+git 撤销
+    1.用暂存区的文件恢复工作目录中的文件 git checkout 文件
+    2.将文件从暂存区中删除 git rm --cached 文件
+    3.将git仓库中指定的更新记录恢复出来，并且覆盖暂存区和工作目录 git reset --hard commitID
+    
