@@ -1,0 +1,12 @@
+git使用
+    1.配置提交人姓名: git config --global user.name 提交人姓名
+    2.配置提交人邮箱：git config --global user.email 提交人邮箱
+    3.查看git配置信息 git config --list
+    如果想进行修改 重复上述配置
+
+git 提交步骤
+    1.git init 初始化git仓库
+    2.git status 查看文件状态
+    3.git add 文件 追踪文件
+    4.git commit -m 提交信息 向仓库中提交代码
+    5.git log 查看提交记录
