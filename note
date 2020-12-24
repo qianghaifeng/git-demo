@@ -35,3 +35,5 @@ git push 远程仓库地址别名 分支名称
 git push -u 远程仓库地址别名 分支名称
 -u 记住推送地址以及分支，下次推送只需要输入git push 即可
 git remote add 远程仓库地址别名 远程仓库
+
+
