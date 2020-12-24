@@ -48,4 +48,7 @@ git ssh
     公钥名称:id_rsa.pub
     私钥名称:id_rsa
 
-这是怎么回事 啊啊
+git 忽略清单
+    将不需要被git 管理的文件名字添加到.gitignore文件中，在执行git命令的时候，git就会忽略这些文件
+    git忽略清单文件名称:.git
+    将工作目录中的文件全部添加到暂存区 git add.
