@@ -30,10 +30,21 @@ git 暂时保存更改
     恢复改动: git stash pop
 
 git 将代码推送到github
-git push 远程仓库地址 分支名称
-git push 远程仓库地址别名 分支名称
-git push -u 远程仓库地址别名 分支名称
--u 记住推送地址以及分支，下次推送只需要输入git push 即可
-git remote add 远程仓库地址别名 远程仓库
+    git push 远程仓库地址 分支名称
+    git push 远程仓库地址别名 分支名称
+    git push -u 远程仓库地址别名 分支名称
+    -u 记住推送地址以及分支，下次推送只需要输入git push 即可
+    git remote add 远程仓库地址别名 远程仓库
 
+git 克隆仓库
+    克隆远端数据仓库到本地  git clone 仓库地址
 
+git 拉取远程仓库中最新的版本
+    拉取远程仓库中最新的版本：git pull 远程仓库地址 分支名称
+
+git ssh 
+    生成秘钥 ssh-keygen
+    秘钥存储目录 c:/USer/yonghu/.ssh
+    公钥名称:id_rsa.pub
+    私钥名称:id_rsa
+    
