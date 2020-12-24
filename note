@@ -15,4 +15,21 @@ git 撤销
     1.用暂存区的文件恢复工作目录中的文件 git checkout 文件
     2.将文件从暂存区中删除 git rm --cached 文件
     3.将git仓库中指定的更新记录恢复出来，并且覆盖暂存区和工作目录 git reset --hard commitID
-    
+
+git 分支命令
+    git branch 查看分支
+    git branch 分支名称   创建分支
+    git checkout 分支名称  切换分支
+    git merge 来源分支  合并分支 (必须且换回主分支才能进行合并)
+    git branch -d 分支名称 删除分支(分支被合并后才允许删除) (-D强制删除)
+
+git 暂时保存更改
+    在git中，可以暂时提取分支上所有的改动并存储，让开发人员得到一个干净的工作副本，临时转向其他工作。
+    使用场景：分支临时切换
+    存储临时改动: git stash
+    恢复改动: git stash pop
+
+git 将代码推送到github
+git push 远程仓库地址 分支名称
+git push 远程仓库地址别名 分支名称
+git push -u 远程仓库地址别名 分支名称
